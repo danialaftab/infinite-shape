@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Infinite Shape</title>
+</head>
+
+<body>
+    <div class="styled-container">
+        <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="exampleFormControlInput1">Width: </label>
+                <input type="text" class="form-control" id="width">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2">Height: </label>
+                <input type="text" class="form-control" id="height">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2">Padding: </label>
+                <input type="text" class="form-control" id="padding">
+            </div>
+            <button type="button" onClick="startDrawing()" class="btn btn-primary mb-2">Submit</button>
+        </form>
+        <div>
+            <h4>Shape</h4>
+            <pre id="shape"></pre>
+        </div>
+    </div>
+</body>
+
+<script src="functions.js"></script>
+
+</html>

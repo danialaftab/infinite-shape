@@ -1,0 +1,21 @@
+{
+  "name": "tradling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "danial aftab",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
